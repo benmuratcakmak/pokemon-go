@@ -1,0 +1,442 @@
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fff;
+}
+nav .menu {
+  font-size: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    color: #fff;
+  }
+.app-and-play-stores {
+  height: 48px;
+  width: 162px;
+}
+.phone-image-div {
+  text-align: center;
+  position: relative;
+}
+/* .phone-image{
+    z-index: 999;
+}
+.big-circle{
+    z-index: 1;
+} */
+svg {
+  height: 4rem;
+  width: 4rem;
+  fill: url("#myGradient");
+}
+/* section-1 */
+.section-1 {
+  background-image: linear-gradient(to right, #ffe49f, #f4be80);
+  padding-top: 9.5rem;
+  padding-bottom: 5rem;
+}
+.section-1 h1 {
+  font-size: calc(1.625rem + 4.5vw);
+}
+.section-1 p {
+  font-size: 20px;
+}
+.section-2 {
+  background: linear-gradient(to right, #00d2ff, #3a7bd5);
+  color: #fff;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.section-2 img {
+  height: 5rem;
+}
+/* section-3 */
+.section-3 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#col-R {
+    text-align: center;
+    margin: auto;
+  }
+/* section-4 */
+.section-4 {
+  background: linear-gradient(to right, #77ada6, #f4faed);
+  color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.section-4 img {
+  width: 5rem;
+}
+.section-4 h2 {
+  font-size: calc(1.475rem + 2.7vw);
+}
+.section-4 p {
+  font-size: 20px;
+}
+/* .section-5 */
+.section-5 {
+  background-image: linear-gradient(to left, #f8d57c, #feb460);
+  color: white;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+.section-5 h2 {
+  font-size: calc(1.625rem + 4.5vw);
+}
+/* .section-6 */
+.section-6 {
+  background: linear-gradient(to right, #00d2ff, #3a7bd5);
+  color: #fff;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* ================================media================================ */
+
+@media (min-width: 1400px) {
+  .section-1 h1 {
+    font-size: 80px;
+  }
+  .phone-image {
+    height: 541px;
+    width: 272px;
+  }
+  .badge {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .big-circle {
+    position: absolute;
+    height: 32rem;
+    width: 32rem;
+    right: 3rem;
+    top: 1rem;
+  }
+  .tiny-circle {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    top: 5rem;
+    right: 4rem;
+  }
+  .x {
+    position: absolute;
+    bottom: 5rem;
+    left: 3rem;
+    height: 3rem;
+    width: 3rem;
+  }
+
+  /* section-3 */
+  .section-3 .big-circle {
+    position: absolute;
+    height: 25rem;
+    width: 25rem;
+    right: 3rem;
+    top: 4rem;
+  }
+  .section-3 .tiny-circle {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    top: 28rem;
+    right: 23rem;
+  }
+  .section-3 .x {
+    position: absolute;
+    top: 2rem;
+    left: 22rem;
+    height: 3rem;
+    width: 3rem;
+  }
+  .section-5 h2 {
+    font-size: 80px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .phone-image {
+    height: 477px;
+    width: 240px;
+  }
+  .badge {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .section-1 h1 {
+    font-size: 80px;
+  }
+  .big-circle {
+    position: absolute;
+    height: 29rem;
+    width: 29rem;
+    right: 1rem;
+    top: 1rem;
+  }
+  .tiny-circle {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    top: 5rem;
+    right: 4rem;
+  }
+  .x {
+    position: absolute;
+    bottom: 5rem;
+    left: 3rem;
+    height: 3rem;
+    width: 3rem;
+  }
+
+  /* section-3 */
+  .section-3 .big-circle {
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    right: 5rem;
+    top: 4rem;
+  }
+  .section-3 .tiny-circle {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    top: 25rem;
+    right: 20rem;
+  }
+  .section-3 .x {
+    position: absolute;
+    top: 2rem;
+    left: 19rem;
+    height: 3rem;
+    width: 3rem;
+  }
+  .section-4 h2 {
+    font-size: 56px;
+  }
+  .section-5 h2 {
+    font-size: 80px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .phone-image {
+    height: 477px;
+    width: 240px;
+  }
+  .badge {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .big-circle {
+    position: absolute;
+    height: 29rem;
+    width: 29rem;
+    right: -1rem;
+    top: 1rem;
+  }
+  .tiny-circle {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    top: 4rem;
+    right: 3rem;
+  }
+  .x {
+    position: absolute;
+    bottom: 3rem;
+    left: 1rem;
+    height: 3rem;
+    width: 3rem;
+  }
+
+  /* section-3 */
+  .section-3 .big-circle {
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    right: 4rem;
+    top: 4rem;
+  }
+  .section-3 .tiny-circle {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    top: 26rem;
+    right: 18rem;
+  }
+  .section-3 .x {
+    position: absolute;
+    top: 2rem;
+    left: 17rem;
+    height: 3rem;
+    width: 3rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-1 {
+    text-align: center;
+  }
+  .section-1 .badge {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+  .phone-image {
+    height: 477px;
+    width: 240px;
+  }
+  .section-3 .phone-image-div {
+    margin-top: 3rem;
+  }
+  .section-3 #col-L {
+    order: 4;
+  }
+  .section-3 #col-R {
+    order: 2;
+  }
+  .big-circle {
+    position: absolute;
+    height: 29rem;
+    width: 29rem;
+    right: 5rem;
+    top: 1rem;
+  }
+  .tiny-circle {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    top: 4rem;
+    right: 4rem;
+  }
+  .x {
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+    height: 3rem;
+    width: 3rem;
+  }
+
+  /* section-3 */
+  .section-3 .big-circle {
+    position: absolute;
+    height: 29rem;
+    width: 29rem;
+    right: 5rem;
+    top: 1rem;
+  }
+  .section-3 .tiny-circle {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    top: 26rem;
+    left: 5rem;
+  }
+  .section-3 .x {
+    position: absolute;
+    top: 2rem;
+    left: 32rem;
+    height: 3rem;
+    width: 3rem;
+  }
+  /* section-6 */
+  .section-6 .badge {
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .phone-image {
+    height: 397px;
+    width: 200px;
+  }
+  .section-1 {
+    text-align: center;
+  }
+  .section-1 .badge {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+  .section-3 .phone-image-div {
+    margin-top: 3rem;
+  }
+  .section-3 #col-L {
+    order: 4;
+  }
+  .section-3 #col-R {
+    order: 2;
+  }
+  .big-circle {
+    position: absolute;
+    height: 23rem;
+    width: 23rem;
+    right: 3rem;
+    top: 1rem;
+  }
+  .tiny-circle {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    top: 4rem;
+    right: 4rem;
+  }
+  .x {
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+    height: 3rem;
+    width: 3rem;
+  }
+  /* section-6 */
+  .section-6 .badge {
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+  }
+}
+@media (max-width: 575px) {
+  .phone-image {
+    height: 318px;
+    width: 160px;
+  }
+  .section-1 {
+    text-align: center;
+  }
+  .section-1 .badge {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+  .section-3 .phone-image-div {
+    margin-top: 3rem;
+  }
+  .section-3 #col-L {
+    order: 4;
+  }
+  .section-3 #col-R {
+    order: 2;
+  }
+  .big-circle {
+    display: none;
+  }
+  .tiny-circle {
+    display: none;
+  }
+  .x {
+    display: none;
+  }
+  /* section-6 */
+  .section-6 .badge {
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+  }
+}
